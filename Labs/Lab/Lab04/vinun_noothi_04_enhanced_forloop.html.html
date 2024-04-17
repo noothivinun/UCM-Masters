@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Noothi Vinun 9/10/2022, Lab04-->
+<html>
+
+<head>
+    <title> Noothi Vinun</title>
+    <meta charset="utf-8">
+
+    <script>
+        var e = [10, 20, 14, 12, 20];
+        var f = new Array(10, 20, 30, 40, 50);
+        var g = [10, 15, 20, , , , 20, 15, 50];
+
+        var c = new Array(12);
+        var d;
+        d = new Array();
+        var total = 0;
+
+        for (var i = 0; i < c.length; i++) {
+            c[i] = i * i;
+
+        }
+
+        /*       for(var i=0;i<c.length;i++){
+                    console.log(c[i]);
+                    total +=c[i];
+                    
+                 }  */
+
+        for (var element in c) {
+            console.log(element);
+            total += c[element];
+        }
+
+        window.addEventListener("load", start, false);
+
+        function start() {
+            console.log("Event Starting......");
+            loadOutput();
+
+        }
+
+        function loadOutput() {
+
+            output2 = document.getElementById("output1");
+            output2.innerHTML = total;
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <div id="output1"></div>
+
+
+
+</body>
+
+</html>

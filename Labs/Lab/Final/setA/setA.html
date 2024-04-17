@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>SET-A -- </title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="setA.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="setA.css">
+                                               
+
+</head>
+
+<body class="special">
+<h1>set A </h1>
+    <table>
+ 
+        <tr>
+            <td>Noothi Vinun  </td>
+            
+            <td>
+                <img src="vinun_profile.jpeg" id="hatshepsut" alt="hatshepsut" width="300" height="300" onclick="getContent('details.html')" >
+                <div class="box" id="contentArea">{content}</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Information from Vinun  </td>
+            
+                <td>
+                    <div id = "results"></div>
+                </td>
+
+            <tr>
+            <td>Noothi Vinun  </td>
+            <td>
+                <div id="pic"></div>
+                <canvas id="myimage" width="200" height="200"
+                style="border: 1px solid Black;">
+            </canvas>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    Display Time
+                </td>
+                <td>
+                    <div id = "refresh">{details}</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Using XML </td>
+                 <td><img src="vinun5.jpg" alt="Vinun" width="200" height="200" id="setAxml">
+                  <div class="box" id="fetchdata">{content}</div>
+                </td>
+               </tr>
+
+               
+               <tr>
+                <td>Using JSON </td>
+                 <td><img src="vinun6.jpg" alt="Vinun" width="200" height="200" id="setAjson">
+                  <div class="box" id="jsnfetch">{content}</div>
+                </td>
+    </tr>
+  </table>
+</h1>
+</body>
+</html>       

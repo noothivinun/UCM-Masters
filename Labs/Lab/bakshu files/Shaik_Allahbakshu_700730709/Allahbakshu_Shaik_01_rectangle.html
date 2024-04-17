@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Shaik </title>
+      <meta charset="utf-8">
+
+      <script src="Allahbakshu_Shaik_01_rectangle.js">
+      </script>
+
+      <link rel = "stylesheet" type = "text/css" href = "Allahbakshu_Shaik_01_rectangle.css">
+
+      
+   </head>
+   <body>
+      <canvas id="drawrectangle" width="300" height="100" style="border: 1px solid rgb(177, 7, 7) ;"></canvas>
+		<script>
+	      var canvas = document.getElementById("drawrectangle");
+	      var context = canvas.getContext("2d")
+	      context.fillStyle = "yellow"
+	      context.fillRect(5, 10, 200, 75);
+	      context.strokeStyle= "royalblue";
+	      context.lineWidth = 6
+	      context.strokeRect(4, 9, 201, 76);
+         
+
+		</script>
+
+      
+   </body>
+</html>

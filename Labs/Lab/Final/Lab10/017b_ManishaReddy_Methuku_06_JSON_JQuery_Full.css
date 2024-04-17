@@ -1,0 +1,32 @@
+
+/* Manisha Reddy Methuku, 2022.10.29, Lab10*/
+p { margin: 0; }
+
+body {
+    background: rgba(155, 21, 126, 0.5);
+    background-image: url(ManishaBG.jpg);
+}
+table {
+    background-color: plum;  
+    width: 800px;
+    height: 300px;
+}
+
+img {
+    background-color: blueviolet;
+}
+
+a.nodec { text-decoration: none; }
+a.hover { text-decoration: underline; }
+
+h1 {
+    font-size: 200%;
+}
+
+div {
+     background-color: plum;
+}
+.box{
+    border: 1px solid black;
+    padding: 10px
+}

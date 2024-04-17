@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Noothi Vinun-->
+<Movies>
+    <Name>Kabir Singh</Name>
+
+
+    <release_dates>
+        
+        <month>June</month>
+        <day>21</day>
+        <year>2019</year>
+
+    </release_dates>
+    <director>Sandeep Reddy Vanga</director>
+    <rate>5/5</rate>
+
+    <notes>Kabir Singh, a senior medical student with a passion for old English motorcycles and football, 
+        is heartbroken when his girlfriend is forced to marry another man. Already struggling with anger issues,
+         he falls into a self-destructive spiral.
+    </notes>
+</Movies>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<!-- this is the player-->
+
+<player>
+    <name>
+        <firstName>Vinun</firstName>
+        <lastName>Noothi</lastName>
+    </name>
+
+    <game>soccer</game>
+</player>

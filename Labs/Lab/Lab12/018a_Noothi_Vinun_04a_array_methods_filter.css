@@ -1,0 +1,19 @@
+
+/* Noothi Vinun, 2022.11.12, Lab12*/
+p { margin: 0; }
+
+body {
+    background: rgba(36, 180, 156, 0.5);
+    background-image: url(vinun_background.jpeg);
+}
+
+a.nodec { text-decoration: none; }
+a.hover { text-decoration: underline; }
+
+h1 {
+    font-size: 200%;
+}
+
+div {
+     background-color: plum;
+}

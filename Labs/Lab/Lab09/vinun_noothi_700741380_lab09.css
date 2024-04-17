@@ -1,0 +1,18 @@
+/* name 2022.09.10*/
+p{margin: 0;}
+
+body{
+    background:rgba(237, 173, 173, 0.5);
+    background-image: url( vinun_background.jpeg);
+}
+
+a.nodec {   text-decoration: none;}
+a.hover { text-decoration: underline;}
+
+h1{
+    font-size: 200%;
+}
+
+div{
+    background-color: plum;
+}

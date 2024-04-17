@@ -1,0 +1,22 @@
+/*Allah Bakshu CSS*/
+p {margin: 0; }
+
+body{
+    background: rebeccapurple;
+    background-image: url(A.jpg);
+}
+a.nodec {
+    text-decoration: none;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+div {
+    background-color: rgb(231, 9, 28);
+}

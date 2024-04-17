@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--Noothi Vinun 9/17/2022, Lab05-->
+
+<!DOCTYPE html>
+<html>
+
+<body id="Here id my page">
+
+    Some sample text.<br> Options:
+    <p onclick="myFunction(this)">
+        Gray background</p><br>
+    <p onclick="myFunction1(this)">
+        White background</p><br>
+    <p onclick="myFunction3()">
+        Sans-serif text</p><br>
+    <p onclick="myFunction4()">
+        Serif text</p>
+
+    <script>
+        function myFunction(id) {
+            document.body.style.backgroundColor = "Gray";
+        }
+
+        function myFunction1(id) {
+            document.body.style.backgroundColor = "White";
+        }
+
+        function myFunction3() {
+            document.getElementById("Here id my page").style.fontFamily = "Sans-serif";
+        }
+
+        function myFunction4() {
+            document.getElementById("Here id my page").style.fontFamily = "Serif";
+        }
+    </script>
+
+
+</body>
+
+</html>

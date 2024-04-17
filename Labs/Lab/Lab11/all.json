@@ -1,0 +1,24 @@
+{
+    "pictures": {
+      "picture": [
+        {
+          "image": "vinun1.jpg",
+          "title": "First Picture",
+          "width": "463",
+          "height": "339"
+        },
+        {
+          "image": "vinun2.jpg",
+          "title": "Second Picture",
+          "width": "341",
+          "height": "338"
+        },
+        {
+          "image": "vinun3.jpg",
+          "title": "Third Picture",
+          "width": "460",
+          "height": "287"
+        }
+      ]
+    }
+  }

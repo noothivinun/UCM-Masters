@@ -1,0 +1,26 @@
+/*Vinun_Noothi CSS*/
+
+p {
+    margin: 0;
+}
+
+body {
+    background: rgba(151, 74, 74, 0.5);
+    background-image: url(vinun_background.jpeg);
+}
+
+a.nodec {
+    text-decoration: none;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+div {
+    background-color: rgb(146, 93, 146);
+}

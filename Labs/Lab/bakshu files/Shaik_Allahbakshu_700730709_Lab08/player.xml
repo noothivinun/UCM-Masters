@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<!-- player definition-->
+<player>
+    <name>
+        <firstName>Khabib</firstName>
+        <lastname>Nurmagomedov</lastname>
+    </name>
+    <sports>MMA</sports>
+</player>

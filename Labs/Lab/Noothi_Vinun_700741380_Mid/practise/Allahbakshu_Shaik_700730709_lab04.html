@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ALLAHBAKSHU</title>
+		<style type="text/css">
+	     p{ font-size: 20pt;sans-serif;color:maroon ; }
+		p1:hover{ font-size: 30pt;font-family: italic,Edwardian Script ITC,sans-serif;color:blue ;background-color:yellow; }
+		p2{ font-size: 40pt;font-family: italic, sans-serif;color:green ; }
+		p3{ font-size: 50pt;font-family: TimesRoman, sans-serif;color:red ; }
+		p4{ font-size: 60pt;font-family: Brush Script MT, sans-serif;color:purple ; underline:none;}
+		
+	</style>
+    <script type="text/javascript">
+        "use strict";
+
+        function replacer(key, value) {
+            if (typeof value === 'number' && !isFinite(value)) {
+                return String(value);
+            }
+            return value;
+        }
+
+        function formatDate() {
+            var dateString, date, curr_date, curr_month, curr_year, curr_day,UTC_date,json_day;
+            dateString = document.getElementById("date");
+            dateString = dateString.value.replace(/-/g, "/");
+            date = new Date(dateString);
+
+            curr_date = date.getDate();
+            curr_month = date.getMonth() + 1; // Months are 0 based
+            curr_year = date.getFullYear();
+            curr_day = date.getDay();
+            UTC_date = date.getTimezoneOffset(); 
+            json_day = JSON.stringify(date.toJSON(), replacer);
+
+            document.getElementById("dateObject").innerHTML =
+                    "<p> Default:<br/>" + date.toString() + "<\/p>" +
+                            "<p1> Month-Day-Year:<br/>" + curr_month + "-" + curr_day + "-" + curr_year + "</p1><p></p>" +
+                            "<p2> Year-Month-Day:<br/>" + curr_year + "-" + curr_month + "-" + curr_day + "</p2><p></p>" +
+                            "<p3> Coordinated Universal Time:<br<br/> " + UTC_date + "</p3><p></p>" +
+                            "<p4> JSON:<br/> " + json_day + "<\/p4>";
+        }
+
+        function start() {
+            var executeButton = document.getElementById("execute");
+            executeButton.addEventListener("click", formatDate, false);
+        }
+
+        window.addEventListener("load", start, false);
+    </script>
+
+</head>
+<body>
+<input id="date" type="date" name="date1"  />
+<input id="execute" type="button" value="Format Date"/>
+<span id="dateObject"></span>
+</body>
+</html>

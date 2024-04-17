@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<!--  Hey I'm Noothi Vinun -->
+
+<pictures>
+    <picture>
+        <image>vinun1.jpg</image>
+        <title>First Picture</title>
+        <width>463</width>
+        <height>339</height>
+    </picture>
+    <picture>
+        <image>vinun2.jpg</image>
+        <title>Second Picture</title>
+        <width>341</width>
+        <height>338</height>
+    </picture>
+    <picture>
+        <image>vinun3.jpg</image>
+        <title>Third Picture</title>
+        <width>460</width>
+        <height>287</height>
+    </picture>
+</pictures>

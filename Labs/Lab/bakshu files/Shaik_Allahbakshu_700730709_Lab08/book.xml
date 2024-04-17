@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<!-- Book Definition -->
+
+<book>
+        <title>La Romana</title>
+        <author>
+            <firstname>Alberto </firstname>
+            <lastname>Moravia</lastname>
+        </author>
+
+        <date>
+            <month>Aug</month>
+            <day>1</day>
+            <year>1949</year>
+        </date>
+
+        <summary>A novel on the atrocity of ww2</summary>
+        <notes>Movie verison of starring sofia loren</notes>
+</book>

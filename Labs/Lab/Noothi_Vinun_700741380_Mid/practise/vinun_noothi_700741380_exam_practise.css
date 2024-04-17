@@ -1,0 +1,21 @@
+/*Vinun_Noothi CSS*/
+
+p {
+    margin: 0;
+}
+
+table{
+    border-style: 10px solid;
+    border-collapse: collapse;
+    width: auto;
+    height: 200;
+    background-color: pink;
+}
+
+td{
+    border: 1px solid;
+}
+
+h1 {
+    font-size: 150%;
+}

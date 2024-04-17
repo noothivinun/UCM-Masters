@@ -1,0 +1,32 @@
+/*Vinun_Noothi CSS*/
+
+
+p {
+    margin: 0;
+}
+
+body{
+    background-image: url(vinun_background.jpeg);
+}
+
+table{
+    border-style: 10px solid;
+    border-collapse: collapse;
+    border-color: black;
+    
+    width: auto;
+    height: 200;
+    background-color: pink;
+}
+
+td{
+    border: 1px solid;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 150%;
+}

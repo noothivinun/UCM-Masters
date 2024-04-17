@@ -1,0 +1,24 @@
+{
+    "pictures": {
+      "picture": [
+        {
+          "image": "Methuku1.jpeg",
+          "title": "My First Picture",
+          "width": "463",
+          "height": "339"
+        },
+        {
+          "image": "Methuku2.jpeg",
+          "title": "My Second Picture",
+          "width": "341",
+          "height": "338"
+        },
+        {
+          "image": "Methuku3.jpeg",
+          "title": "My Third Picture",
+          "width": "460",
+          "height": "287"
+        }
+      ]
+    }
+  }

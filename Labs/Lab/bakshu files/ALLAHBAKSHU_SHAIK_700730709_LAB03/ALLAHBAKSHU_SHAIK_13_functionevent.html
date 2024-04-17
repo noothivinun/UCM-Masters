@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<!-- SHAIK ALLAHBAKSHU -->
+
+   <html>
+    <head>
+   <title>SHAIK Lab03 Home page</title>
+   <meta charset="utf-8">
+   <script type="text/Javascript">
+    window.addEventListener("load", start, false);
+
+    function start() {
+   var button = document.getElementById("randomButton");
+   button.addEventListener("click", rollPicture, false);
+
+    }
+
+    function rollPicture() {
+
+   vinunImage1 = document.getElementById("shaik1");
+   var picValue = Math.floor (1 + Math.random() * 6);
+   vinunImage1.setAttribute("src","shaik" + picValue + ".jpg");
+    }
+    </script>
+    
+    <style type="text/css">
+
+    </style>
+    </head>
+    <body>
+        <form action="#">
+            <input id="randomButton" type="button" value="Random Picture">
+   
+         </form>
+         <p>
+            <img id ="shaik1" src="PHOTO.jpg" width="400" height="400" alt="Shaik">
+   
+         </p>
+
+    </body>
+   </html>

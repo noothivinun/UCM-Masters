@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<!--  This is Manisha -->
+
+<pictures>
+    <picture>
+        <image>Methuku1.jpeg</image>
+        <title>My First Picture</title>
+        <width>463</width>
+        <height>339</height>
+    </picture>
+    <picture>
+        <image>Methuku2.jpeg</image>
+        <title>My Second Picture</title>
+        <width>341</width>
+        <height>338</height>
+    </picture>
+    <picture>
+        <image>Methuku3.jpeg</image>
+        <title>My Third Picture</title>
+        <width>460</width>
+        <height>287</height>
+    </picture>
+</pictures>
